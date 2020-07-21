@@ -45,9 +45,9 @@ public class NewsPage extends BasePage{
         public void clickHelpSite() {
             JavascriptExecutor js = (JavascriptExecutor) driver;
             js.executeScript("window.scrollBy(0,30000)");
-            Sleep(1000);
+            Sleep(2000);
             js.executeScript("window.scrollBy(0,30000)");
-            Sleep(1000);
+            Sleep(2000);
             helpSite.click();
         }
 }

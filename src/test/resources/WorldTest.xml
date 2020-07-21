@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WorldTest">
+    <test name="WorldTest" >
+        <classes>
+            <class name="WorldTest" />
+        </classes>
+    </test>
+</suite>
